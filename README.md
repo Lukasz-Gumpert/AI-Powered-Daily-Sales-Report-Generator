@@ -59,7 +59,7 @@ get(1.product_list; floor(random * 15) + 1)
 ```
 * **quantity:** sets a random integer between 1 and 5 as the number of units sold. Simulating realistic transaction volumes
 ```
-{{floor(random * 5) + 1}}
+floor(random * 5) + 1
 ```
 * **discount_rate:** sets a base discount rate between 0-3%. Introducing financial variability essential for AI analysis.
 ```
@@ -98,13 +98,13 @@ This module maps every variable and calculated value to the correct column in th
 * **Unique ID Generation (Column A):** Uses the concatenation of a static prefix (DN-), a formatted date (YYYYMMDD), and a randomly generated number to create a unique Order ID for tracking.
 
 ```
-{{"DN-" + formatDate(now; "YYYYMMDD") + "-" + substring(toString(floor(random * 1000000) + 1000000); -6)}}
+"DN-" + formatDate(now; "YYYYMMDD") + "-" + substring(toString(floor(random * 1000000) + 1000000); -6)
 ```
 
 * **order_date (Column B):** ensuring that all generated transactions for a given scenario run have the correct, current date, making the data suitable for the "daily" filtering and reporting in Scenario 2.
 
 ```
-{{formatDate(now; \ + "YYYY-MM-DD\")}}
+formatDate(now; \ + "YYYY-MM-DD\")
 ```
 
 * **Numerical Fields (Column G, H, I, J, K, L, M):** Data Integrity for AI: Guarantees that the numerical data is clean and accurate for subsequent ingestion by the Google Gemini AI model, preventing parsing errors.
