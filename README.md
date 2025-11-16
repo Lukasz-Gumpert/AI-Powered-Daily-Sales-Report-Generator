@@ -236,9 +236,9 @@ The prompt is highly structured, ensuring the AI performs complex analysis and d
 * **Trend Analysis:** Identify daily trends in discounts or profit consistency.
 
 ---
-➡️ **VIEW FULL PROMPT:**  **[`gemini_sales_report_prompt.txt`](AI-Powered-Daily-Sales-Report-Generator\prompts\gemini_meta_prompt.txt)**
+➡️ **VIEW FULL PROMPT:**  **[`gemini_sales_report_prompt.txt`](AI-Powered-Daily-Sales-Report-Generator/prompts/gemini_sales_report_prompt.txt)**
 
-➡️ **VIEW MANUALLY INJECTED FOOTER:** : **[`gemini_sales_report_prompt.txt`](./prompts/gemini_sale_report_footer.txt)**
+➡️ **VIEW MANUALLY INJECTED FOOTER:** : **[`gemini_sales_report_prompt.txt`](AI-Powered-Daily-Sales-Report-Generator/prompts/gemini_sale_report_footer.txt)**
 
 <p align="center">
 <img src="AI-Powered-Daily-Sales-Report-Generator\assets\scenario-2\image-5.PNG" alt='google_gemini_generate_response'/>
