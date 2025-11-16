@@ -145,7 +145,7 @@ The successful execution of the Sales Data Generator populates the linked Google
 
 This meticulous formatting allows the downstream workflow to seamlessly ingest the data in a CSV-like structure, preventing parsing errors often associated with locale-specific number formats (commas vs. dots) when feeding data to the AI model. This robust dataset, including all necessary calculated fields like Profit and Total Cost, serves as the clean input for the AI Reporting Scenario.
 
-A sample of the generated data is available for download as a [CSV file](AI-Powered-Daily-Sales-Report-Generator\assets\scenario-1\daily_sales.csv)
+A sample of the generated data is available for download as a [CSV file](AI-Powered-Daily-Sales-Report-Generator/assets/scenario-1/daily_sales.csv)
 
 <p align="center">
 <img src="AI-Powered-Daily-Sales-Report-Generator\assets\scenario-1\module-6.PNG" alt='google_sheet_output'/>
