@@ -1,0 +1,1 @@
+"Act as a Prompt Engineer. We need a daily sales report generated from raw CSV data. Design a professional prompt that assigns the role of 'Expert Financial and Sales Data Analyst' to the model. Include explicit instructions to calculate Top Profit, identify the Bestselling Region, and enforce a strict Markdown format with double line breaks for email transmission."
